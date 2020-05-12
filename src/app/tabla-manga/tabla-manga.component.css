@@ -1,0 +1,23 @@
+.full-width-table {
+  width: 100%;
+  color: white;
+  background-color: grey;
+}
+
+.full-width-table td{
+  padding: 35px;
+}
+
+.full-width-table th{
+  padding-left: 35px;
+}
+
+.npt1{
+  background-color: grey;
+}
+
+.mat-elevation-z8{
+  width: 86%;
+  align-content: center;
+  margin-left: 8%;
+}

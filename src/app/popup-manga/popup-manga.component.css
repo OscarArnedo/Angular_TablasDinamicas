@@ -1,0 +1,12 @@
+.img{
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.comics{
+    width: 100%;
+    background-color: grey;
+    padding-left: 50px;
+}

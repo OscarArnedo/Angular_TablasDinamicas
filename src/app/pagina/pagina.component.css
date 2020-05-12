@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    font-family: 'Modak', cursive;
+}
+.cuadro{
+    height: 720px;
+    width: 1080px;
+    margin-bottom: 20px;
+    margin-left: 8%;
+    border: 4px solid black;
+}
+
+.epilepsia{
+    margin-bottom: 20px;
+    margin-left: 25%;
+    border: 4px solid black;
+    width: 50%;
+}
+
+.fondo{
+    background-color: rgb(206, 67, 67);
+}

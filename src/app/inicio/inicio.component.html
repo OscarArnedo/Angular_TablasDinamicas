@@ -1,0 +1,8 @@
+<button style="margin-left: 37%;" mat-button routerLink="/pagina">INICIO</button>
+<button mat-button routerLink="/favoritos">FAVORITOS</button>
+<button mat-button routerLink="/comic">CÓMICS</button>
+<button mat-button routerLink="/manga">MANGAS</button>
+<router-outlet></router-outlet>
+<div [@routeAnimations]="prepareRoute(outlet)" >
+    <router-outlet #outlet="outlet"></router-outlet>
+</div>

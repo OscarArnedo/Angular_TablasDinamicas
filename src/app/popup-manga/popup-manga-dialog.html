@@ -1,0 +1,13 @@
+<div>
+    <h1 mat-dialog-title></h1>
+    <div mat-dialog-content>
+      <img style="float: left; padding-right: 15px;" src="../../assets/{{data.imagen}}" width="100px" height="120px">
+      
+      <h2 mat-dialog-title>Titulo del comic: {{data.nombre}}</h2>
+      <h3>Autor del manga: {{data.autor}}</h3>
+      <h3>Genero: {{data.genero}}</h3>
+      <p style="text-align: justify;">{{data.descripcion}}</p>
+    </div>
+    <div mat-dialog-actions>
+      <button mat-button [mat-dialog-close] cdkFocusInitial>Ok</button>
+</div>

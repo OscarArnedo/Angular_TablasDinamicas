@@ -1,0 +1,26 @@
+.full-width-table {
+  width: 100%;
+  color: white;
+  background-color: grey;
+}
+
+.full-width-table td{
+  padding: 35px;
+  text-align: center;
+}
+
+.full-width-table th{
+  padding-left: 50px;
+}
+
+.npt1{
+  background-color: grey;
+}
+
+.filter{
+  width: 100%;
+}
+
+.h2{
+  font-family: 'Fredoka One', cursive;
+}
